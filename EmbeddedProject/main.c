@@ -5,14 +5,17 @@
  * Author : Hussein Hany
  */ 
 
-#include <avr/io.h>
-
+#include "BITS.h"
+#include "atmega32.h"
+#include <util/delay.h>
+#define F_CPU 8000000
 
 int main(void)
 {
     /* Replace with your application code */
     while (1) 
     {
+		
     }
 }
 
